@@ -19,7 +19,6 @@ const BookList = () => {
     title.value = '';
     author.value = '';
     dispatch(addBook(newbook));
-    console.log(newbook);
   };
 
   const bookList = useSelector((state) => state.booksReducer);

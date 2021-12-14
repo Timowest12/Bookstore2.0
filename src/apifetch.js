@@ -2,7 +2,6 @@ const APIURL = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/books
 export const getBooksList = async () => {
   const req = await fetch(APIURL);
   const books = await req.json();
-  console.log(books);
   return books;
 };
 
