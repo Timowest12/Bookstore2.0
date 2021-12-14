@@ -1,8 +1,9 @@
+/* eslint-disable */
 import React from 'react';
 
 const Categories = () => (
   <div>
-    not done yet
+    under construction
   </div>
 );
 
