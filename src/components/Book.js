@@ -7,10 +7,10 @@ const Book = (props) => {
 
   const { book } = props;
   return (
-    <li key={book.id}>
+    <li key={book.item_id}>
       <span>{book.title}</span>
       <span>{book.author}</span>
-      <button onClick={() => dispatch(removeBook(book.id))} type="button">Remove book</button>
+      <button onClick={() => dispatch(removeBook(book.item_id))} type="button">Remove book</button>
     </li>
   );
 };
