@@ -109,6 +109,7 @@ nav {
 
 .booktxtblock {
   flex-direction: column;
+  width: 250px;
 }
 
 .bookbuttonswrapper {
