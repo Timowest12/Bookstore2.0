@@ -5,9 +5,11 @@ body {
   background-color: #fafafa;
   font-family: 'Roboto Slab', serif;
 }
+.d-flex{
+  display: flex;
+}
 
 nav {
-  display: flex;
   flex-direction: row;
   padding-left: 20px;
   color: #0893ff;
@@ -16,7 +18,6 @@ nav {
 }
 
 .nav-links {
-  display: flex;
   align-items: center;
   color: black;
   font-weight: 300;
@@ -51,7 +52,6 @@ nav {
 }
 
 .book {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: white;
@@ -60,12 +60,10 @@ nav {
 }
 
 .booktxtblock {
-  display: flex;
   flex-direction: column;
 }
 
 .bookbuttonswrapper {
-  display: flex;
   flex-direction: row;
 }
 
@@ -86,7 +84,6 @@ nav {
 }
 
 .infoside {
-  display: flex;
   flex-direction: row;
   align-items: center;
 }
@@ -102,7 +99,6 @@ nav {
 }
 
 .progblock {
-  display: flex;
   flex-direction: row;
 }
 

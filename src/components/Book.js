@@ -7,13 +7,13 @@ const Book = (props) => {
 
   const { book } = props;
   return (
-    <li className="book" key={book.item_id}>
-      <div className="booktxtblock">
+    <li className="d-flex book" key={book.item_id}>
+      <div className="d-flex booktxtblock">
         <span className="category">thriller</span>
         <span className="title">{book.title}</span>
         <span>{book.author}</span>
         <span className="author">J.K. Rowling</span>
-        <div className="bookbuttonswrapper">
+        <div className="d-flex bookbuttonswrapper">
           <button className="bookbuttons" type="button">Comments</button>
           <button className="bookbuttons" onClick={() => dispatch(removeBook(book.item_id))} type="button">Remove</button>
           <button className="bookbuttons" type="button">Edit</button>
@@ -21,8 +21,8 @@ const Book = (props) => {
 
       </div>
       <div />
-      <div className="infoside">
-        <div className="progblock">
+      <div className="d-flex infoside">
+        <div className="d-flex progblock">
           <div className="progbar">
             <div className="circle-wrap">
               <div className="circle">
