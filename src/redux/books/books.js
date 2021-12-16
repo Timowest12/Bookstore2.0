@@ -13,7 +13,6 @@ export const addBook = (payload) => async (dispatch) => {
     payload, // payload: payload(argument)
   });
 };
-// You can implement this one according to addBook
 export const removeBook = (id) => async (dispatch) => {
   await apiCalls.deleteBook(id);
   dispatch({

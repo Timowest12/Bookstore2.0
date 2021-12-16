@@ -3,7 +3,8 @@
 # Book store
 
 In this project, I set up a React single pag app(SPA) and made a dynamic bookstore using react and redux. The books are stored in redux global storage.
-![localhost_3000_ (2)](https://user-images.githubusercontent.com/13661892/145089707-f6c47dd2-3768-4f9a-b0ce-798bcefcde06.png)
+![localhost_3000_ (3)](https://user-images.githubusercontent.com/13661892/145663864-d315dbf2-ae56-4efb-8037-42ece827e36d.png)
+
 
 
 ## Built With

@@ -22,7 +22,8 @@ function App() {
     <Router>
       <header>
         <nav>
-          <h1>Awesome Bookstore</h1>
+          <h1>Bookstore CMS</h1>
+
           <div className="nav-links">
             <Link to="/">Book</Link>
             <div />
