@@ -35,16 +35,64 @@ nav {
   padding: 10px 50px;
 }
 
-#add-book-form > input {
-  margin-right: 20px;
-  padding: 5px;
+.innerform{
+  flex-direction: row;
+  align-items: center;
 }
 
-#add-book-form > button {
-  margin-right: 20px;
-  padding: 5px 10px;
+#add-book-form > * > input {
+  flex: 1;
+  width: fit-content;
+  height: 2.813rem;
+  
+  padding: 0.375rem 0.938rem 0.563rem 1rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8
+}
+
+.categoryoption{
+  width: 4.5rem;
+  height: 1.188rem;
+  margin: 0.438rem 10.438rem 0.25rem 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
+}
+
+#categoryselect{
+  color: #888;
+  min-width: 200px;
+  margin: 1.188rem 2.125rem 0 0;
+  padding: 20px;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8
+}
+
+.addbook{
+  width: 8.938rem;
+  height: 1.125rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
+
+#add-book-form > * > button {
+  width: 11.5rem;
+  height: 52px;
+  margin: 1.188rem 20 20 2.125rem;
+  padding: 10px;
+  border-radius: 6px;
   background-color: #0290ff;
-  color: #fafafa;
   border: none;
 }
 
