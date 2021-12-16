@@ -84,6 +84,10 @@ nav {
   color: #4386bf;
 }
 
+.bookbuttonswrapper > *:nth-child(n+2) {
+  border-left: 1px solid gray;
+}
+
 .infoside {
   flex-direction: row;
   align-items: center;
