@@ -5,7 +5,8 @@ body {
   background-color: #fafafa;
   font-family: 'Roboto Slab', serif;
 }
-.d-flex{
+
+.d-flex {
   display: flex;
 }
 
