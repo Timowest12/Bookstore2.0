@@ -84,6 +84,10 @@ nav {
   color: #4386bf;
 }
 
+.infoside > * {
+  margin: 0 25px;
+}
+
 .bookbuttonswrapper > *:nth-child(n+2) {
   border-left: 1px solid gray;
 }
@@ -93,21 +97,17 @@ nav {
   align-items: center;
 }
 
-.infoside > * {
-  margin: 0 25px;
-}
-
 .vertline {
   width: 2px;
   height: 70%;
-  
   background-color: #e8e8e8;
 }
 
 .progblock {
   flex-direction: row;
 }
-.currentchapter{
+
+.currentchapter {
   width: 7.875rem;
   height: 1.125rem;
   margin: 0.063rem 3.625rem 0 3.688rem;
@@ -122,7 +122,7 @@ nav {
   color: var(--black-two);
 }
 
-.chaptertxt{
+.chaptertxt {
   width: 13.25rem;
   height: 1.313rem;
   margin: 0.438rem 0 0.25rem 3.688rem;
@@ -136,16 +136,18 @@ nav {
   color: var(--black-two);
 }
 
-.chapterbutton{
+.chapterbutton {
   width: 11.5rem;
   height: 2.063rem;
   margin: 0.75rem 1.75rem 0.563rem 3.688rem;
   padding: 0.438rem 1.188rem 0.5rem 1.375rem;
   border-radius: 3px;
-  background-color: var(--azure);
+  background-color: #0893ff;
+  color: white;
+  border: none;
 }
 
-.chapbtntxt{
+.chapbtntxt {
   width: 8.938rem;
   height: 1.125rem;
   font-family: 'Roboto Slab', serif;
@@ -165,19 +167,11 @@ nav {
   border-radius: 50%;
   border: 4px solid #0893ff;
   margin-right: 20px;
-
 }
 
 .circle-wrap .circle .mask {
   border-image-source: linear-gradient(to bottom, #307bbe, #379cf6);
   border-image-slice: 1;
-}
-
-.chapterbutton {
-  background-color: #0893ff;
-  color: white;
-  border: none;
-  padding: 5px;
 }
 
 .category {
