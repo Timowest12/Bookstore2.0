@@ -27,6 +27,14 @@ Download it directly by ZIP, open the index file in a text editor, and you can c
 CD into the root folder and run npm i(NodeJs and NPM required)
 run npm start to launch project on local server
 
+alternatively:
+
+open your terminal
+type git clone https://github.com/Timowest12/Bookstore2.0.git
+type cd bookstore to change directory to the folder of the project
+in your terminal type npm install to install all dependencies
+run npm start in your terminal
+
 
 ## Authors
 
