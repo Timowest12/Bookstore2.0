@@ -21,9 +21,10 @@ function App() {
   return (
     <Router>
       <header>
-        <nav>
-          <h1>Awesome Bookstore</h1>
-          <div className="nav-links">
+        <nav className="d-flex">
+          <h1>Bookstore CMS</h1>
+
+          <div className="d-flex nav-links">
             <Link to="/">Book</Link>
             <div />
             <Link to="/categories">Categories</Link>

@@ -3,7 +3,9 @@
 # Book store
 
 In this project, I set up a React single pag app(SPA) and made a dynamic bookstore using react and redux. The books are stored in redux global storage.
-![localhost_3000_ (2)](https://user-images.githubusercontent.com/13661892/145089707-f6c47dd2-3768-4f9a-b0ce-798bcefcde06.png)
+<img width="945" alt="2021-12-16" src="https://user-images.githubusercontent.com/13661892/146381437-f67770a0-23ad-44ff-96e7-cf6d9ce56118.png">
+
+
 
 
 ## Built With
@@ -25,6 +27,17 @@ If you want to use this repo as a template, you can do so; follow the instructio
 Download it directly by ZIP, open the index file in a text editor, and you can change the content to match your own.
 CD into the root folder and run npm i(NodeJs and NPM required)
 run npm start to launch project on local server
+
+alternatively:
+
+open your terminal
+type `git clone` https://github.com/Timowest12/Bookstore2.0.git
+
+type `cd bookstore` to change directory to the folder of the project
+
+in your terminal type `npm install` to install all dependencies
+
+run `npm start` in your terminal
 
 
 ## Authors

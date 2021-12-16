@@ -28,16 +28,25 @@ const BookList = () => {
 
   return (
     <div>
-      <h1>Awesome Books</h1>
-      <ul>
+
+      <ul className="booksul">
         {bookList.map((book) => (
           <Book key={book.item_id} book={book} />
         ))}
       </ul>
       <form id="add-book-form" onSubmit={(e) => submitForm(e)}>
-        <input id="title" placeholder="Title" />
-        <input id="author" placeholder="Author" />
-        <button type="submit">Add Book</button>
+        <hr />
+        <h3 className="addbooktxt">ADD NEW BOOK</h3>
+        <div className="d-flex innerform">
+
+        <input id="title" placeholder="Book title" />
+        <label htmlFor="categoryselect">
+          <select label="categoryselect" name="categoryselect" id="categoryselect" placeholder="category">
+            <option className="categoryoption" value="thriller">thriller</option>
+          </select>
+        </label>
+        <button className="addbookbtn" type="submit"><span className="addbook">Add Book</span></button>
+        </div>
       </form>
     </div>
   );
