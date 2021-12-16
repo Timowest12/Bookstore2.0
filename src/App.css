@@ -94,13 +94,65 @@ nav {
 }
 
 .vertline {
-  width: 1px;
-  height: 100%;
-  background-color: black;
+  width: 2px;
+  height: 70%;
+  
+  background-color: #e8e8e8;
 }
 
 .progblock {
   flex-direction: row;
+}
+.currentchapter{
+  width: 7.875rem;
+  height: 1.125rem;
+  margin: 0.063rem 3.625rem 0 3.688rem;
+  opacity: 0.5;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--black-two);
+}
+
+.chaptertxt{
+  width: 13.25rem;
+  height: 1.313rem;
+  margin: 0.438rem 0 0.25rem 3.688rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: var(--black-two);
+}
+
+.chapterbutton{
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0.75rem 1.75rem 0.563rem 3.688rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: var(--azure);
+}
+
+.chapbtntxt{
+  width: 8.938rem;
+  height: 1.125rem;
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
 }
 
 .circle-wrap {
@@ -109,10 +161,12 @@ nav {
   border-radius: 50%;
   border: 4px solid #0893ff;
   margin-right: 20px;
+
 }
 
 .circle-wrap .circle .mask {
-  clip: rect(0, 150px, 150px, 75px);
+  border-image-source: linear-gradient(to bottom, #307bbe, #379cf6);
+  border-image-slice: 1;
 }
 
 .chapterbutton {
